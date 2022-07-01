@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diclick">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tutorialhand"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiClick">
+        <activity
+            android:name=".testHandLevel3"
+            android:exported="false" />
+        <activity
+            android:name=".testHandLevel2"
+            android:exported="false" />
+        <activity
+            android:name=".usernameInput3"
+            android:exported="false" />
+        <activity
+            android:name=".usernameInput2"
+            android:exported="false" />
+        <activity
+            android:name=".usernameInput1"
+            android:exported="false" />
+        <activity
+            android:name=".testColor"
+            android:exported="false" />
+        <activity
+            android:name=".testHandLevel1"
+            android:exported="false" />
+        <activity
+            android:name=".usernameInput"
+            android:exported="false" />
+        <activity
+            android:name=".leaderboardColor"
+            android:exported="false" />
+        <activity
+            android:name=".leaderboardHand"
+            android:exported="false" />
+        <activity
+            android:name=".menu2"
+            android:exported="false" />
+        <activity
+            android:name=".hint"
+            android:exported="false" />
+        <activity
+            android:name=".handLevel"
+            android:exported="false" />
+        <activity
+            android:name=".score"
+            android:exported="false" />
+        <activity
+            android:name=".question"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".benar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
